@@ -12,7 +12,6 @@
   --text-color: #353430;
   --title-color: #ffc2e6;
   --text-title-color: #353430;
-  background-color: var(--bg-color);
   background-image: url("../images/cover-image-light.png");
 }
 

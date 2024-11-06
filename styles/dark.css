@@ -21,7 +21,6 @@
   --text-color: rgba(0, 0, 40, 1);
   --text-title-color: #ff0070;
   --title-color: rgba(219, 0, 255, 1);
-    background-color: var(--bg-color);
     background-image: url("../images/cover-image-dark.png");
 
 }
