@@ -16,13 +16,31 @@
   --nav-color: #ff0070;
   
   --bg-color: rgba(0, 0, 40, 1);
-  --accent-color: rgba(255, 0, 112, 1);
   --accrent-text-color: rgba(241, 178, 206, 1);
   --text-color: rgba(0, 0, 40, 1);
   --text-title-color: #ff0070;
   --title-color: rgba(219, 0, 255, 1);
     background-image: url("../images/cover-image-dark.png");
 
+}
+
+
+.header__theme-menu-button:hover {
+  --nav-hover-color: rgb(255 0 112 / 0.4);
+  border: 1px solid var(--nav-hover-color);
+}
+
+.header__rec {
+  display: none;
+}
+
+.page::before,
+.footer::before {
+  --accent-color: #ff0070;
+}
+.page::after,
+.footer::after {
+  --accent-color: #ff0070;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -38,7 +56,6 @@
   --nav-color: #ff0070;
   
   --bg-color: rgba(0, 0, 40, 1);
-  --accent-color: rgba(255, 0, 112, 1);
   --accrent-text-color: rgba(241, 178, 206, 1);
   --text-color: rgba(0, 0, 40, 1);
   --text-title-color: #ff0070;

@@ -15,20 +15,20 @@
   background-image: url("../images/cover-image-light.png");
 }
 
-.header__theme-menu-button:hover {
+.theme_light .header__theme-menu-button:hover {
   --nav-hover-color: #353430;
   border: 1px solid var(--nav-hover-color);
 }
 
-.header__rec {
+.theme_light .header__rec {
   display: none;
 }
 
-.page::before,
+.theme_light .page::before,
 .footer::before {
   --accent-color: var(--text-color);
 }
-.page::after,
+.theme_light .page::after,
 .footer::after {
   --accent-color: var(--text-color);
 }
