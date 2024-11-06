@@ -2,7 +2,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  background-image: url("../images/cover-image-dark.png");
   background-size: cover;
 }
 
@@ -158,6 +157,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: repeat(2, 1fr);
+  margin-block-end: clamp(3.125rem, 2.5rem + 2.7778vw, 5rem);
 }
 
 .dophomin {
@@ -172,7 +172,11 @@
 }
 
 .attention_card .card_title {
-  grid-column: 1 / 4;
+  grid-column: 1 / 2;
+}
+
+.attention_card .multitask {
+  grid-row-start: 2;
 }
 
 .semibold {
