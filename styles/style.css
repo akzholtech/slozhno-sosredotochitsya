@@ -1,4 +1,3 @@
-
 .page {
   background-repeat: no-repeat;
   background-position: center;
@@ -11,6 +10,7 @@
   display: flex;
   flex-direction: column;
   min-block-size: 100vh;
+  margin-block-end: clamp(2.5rem, 2.0833rem + 1.8519vw, 3.75rem);
 }
 
 .header__theme-menu-list {
@@ -62,7 +62,7 @@
 .header__logo {
   display: flex;
   flex-grow: 2;
-  align-items: center;
+  align-items: end;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-weight: 700;
   color: var(--title-color);
@@ -138,7 +138,7 @@
 .card_title {
   font-size: 18px;
   letter-spacing: 1px;
-  color: var(--accent-color);
+  color: var(--text-title-color);
 }
 
 .card_subtitle {
@@ -149,7 +149,7 @@
 
 .card_text {
   margin: 10px 0 20px;
-  line-height: 1.5em;
+  line-height: 23.4px;
   letter-spacing: 0.5px;
   color: var(--accrent-text-color);
 }
@@ -305,15 +305,23 @@
   .header_title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
+  .attention_card {
+    display: block;
+  }
+
+  .attention_card .card_title {
+    max-inline-size: 250px;
+    margin-block-end: 20px;
+  }
   .header__paragraph {
-    max-inline-size: calc(100vw / 2.7);
+    max-inline-size: calc(100vw / 2.1);
   }
 }
 
 @media (1024px <= width < 1440px) {
-  /* .page {
-    background: var(--bg-color);
-  } */
+  .header__paragraph {
+    max-inline-size: calc(100vw / 2.1);
+  }
   .header_title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
