@@ -169,6 +169,8 @@
   gap: 20px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr minmax(min-content, max-content);
+  margin-block-end: clamp(3.125rem, 2.5rem + 2.7778vw, 5rem);
+
 }
 
 .attention_card .card_title {
@@ -187,11 +189,13 @@
   display: grid;
   gap: 20px;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: repeat(5, minmax(fit-content, 1fr));
+  grid-template-rows: repeat(7, minmax(fit-content, 1fr));
+  margin-block-end: clamp(3.125rem, 2.5rem + 2.7778vw, 5rem);
+
 }
 
 .better_attention_card .card_title {
-  grid-row: 1 / 6;
+  grid-row: 1 / 7;
 }
 
 .grid_content {
