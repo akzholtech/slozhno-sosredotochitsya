@@ -63,6 +63,7 @@
   display: flex;
   flex-grow: 2;
   align-items: end;
+  line-height: 1;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-weight: 700;
   color: var(--title-color);
@@ -148,7 +149,7 @@
 }
 
 .card_text {
-  margin: 10px 0 20px;
+  margin: 10px 0 0px;
   line-height: 23.4px;
   letter-spacing: 0.5px;
   color: var(--accrent-text-color);
@@ -296,11 +297,11 @@
   .header__paragraph {
     max-inline-size: calc(100vw / 1.2);
   }
-  .attention_card {
-    display: block;
-  }
-  .grid_content {
-    display: block;
+  .attention_card, .hard_to_focus,
+   .better_attention_card, .grid_content {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
   }
 }
 
