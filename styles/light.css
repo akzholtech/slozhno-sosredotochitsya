@@ -41,7 +41,14 @@
     background-image: url("../images/cover-image-light.png");
   }
 
+  .header__paragraph {
+    margin-inline-end: 0;
+  }
+
   .header__rec {
     display: none;
+  }
+  .card_text {
+    line-height: 1;
   }
 }
