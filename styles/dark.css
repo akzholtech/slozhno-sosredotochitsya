@@ -14,7 +14,7 @@
   --main-bg-color: #00183f;
   --accent-color: #ff0070;
   --nav-color: #ff0070;
-
+  --border-color: #ff8dcb;
   --bg-color: rgba(0, 0, 40, 1);
   --accrent-text-color: rgba(241, 178, 206, 1);
   --text-color: rgba(0, 0, 40, 1);
@@ -32,15 +32,6 @@
   display: flex;
 }
 
-.theme_dark .page::before,
-.theme_dark .footer::before {
-  --accent-color: #ff0070;
-}
-.theme_dark .page::after,
-.theme_dark .footer::after {
-  --accent-color: #ff0070;
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     --main-bg-color: #00183f;
@@ -48,11 +39,14 @@
     --nav-color: #ff0070;
     --bg-color: rgba(0, 0, 40, 1);
     --accrent-text-color: rgba(241, 178, 206, 1);
+    --border-color: #ff8dcb;
+
     --text-color: rgba(0, 0, 40, 1);
     --text-title-color: #ff0070;
     --title-color: rgba(219, 0, 255, 1);
   }
   .page {
+    background: var(--bg-color);
     background-image: url("../images/cover-image-dark.png");
   }
 }
