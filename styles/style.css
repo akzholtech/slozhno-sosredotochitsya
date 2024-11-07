@@ -295,7 +295,7 @@
     margin-inline: auto;
   }
   .header__paragraph {
-    max-inline-size: calc(100vw / 1.2);
+    max-inline-size: calc(100vw / 1.1);
   }
   .attention_card,
   .hard_to_focus,

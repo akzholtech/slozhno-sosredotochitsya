@@ -47,6 +47,7 @@
   }
   .page {
     background: var(--bg-color);
+    background-attachment: fixed;
     background-image: url("../images/cover-image-dark.png");
   }
 }

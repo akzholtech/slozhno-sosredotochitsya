@@ -33,11 +33,11 @@
     --title-color: #ffc2e6;
     --text-title-color: #353430;
     --border-color: #353430;
-
   }
 
   .page {
     background: var(--bg-color);
+    background-attachment: fixed;
     background-image: url("../images/cover-image-light.png");
   }
 
@@ -47,8 +47,5 @@
 
   .header__rec {
     display: none;
-  }
-  .card_text {
-    line-height: 1;
   }
 }
