@@ -49,6 +49,12 @@
     display: none;
   }
   @media (width < 768px) {
+    .main_content {
+      margin-inline: 10px;
+    }
+    .grid_content {
+      gap: 10px;
+    }
     .page::before,
     .footer::before {
       bottom: 10px;

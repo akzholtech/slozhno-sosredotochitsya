@@ -299,7 +299,12 @@
     line-height: 95.7px;
     align-items: center;
   }
-
+  .main_content {
+    margin-inline: 10px;
+  }
+  .grid_content {
+    gap: 10px;
+  }
   .header__text {
     margin-inline: auto;
     align-items: start;
