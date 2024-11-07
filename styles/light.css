@@ -73,12 +73,17 @@
     }
     .header__paragraph {
       margin-inline-end: 20px;
-      max-inline-size: calc(100vw / 2.3);
+      max-inline-size: calc(100vw / 2);
     }
     .attention_card {
       display: flex;
       flex-direction: column;
       gap: 20px;
+      margin-block-end: 80px;
+    }
+    .hard_to_focus,
+    .better_attention_card {
+      margin-block-end: 80px;
     }
   }
 

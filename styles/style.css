@@ -347,7 +347,8 @@
   .header__logo {
     align-items: center;
   }
-  .hard_to_focus {
+  .hard_to_focus, .attention_card, 
+  .better_attention_card {
     margin-block-end: 80px;
   }
 
@@ -362,13 +363,16 @@
     margin-block-end: 20px;
   }
   .header__paragraph {
-    max-inline-size: calc(100vw / 2.1);
+    max-inline-size: calc(100vw / 2.);
   }
 }
 
 @media (1024px <= width < 1440px) {
   .header__paragraph {
     max-inline-size: calc(100vw / 2.1);
+  }
+  .hard_to_focus {
+    margin-block-end: 80px;
   }
   .header_title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
