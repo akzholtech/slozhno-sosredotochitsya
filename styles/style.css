@@ -149,12 +149,14 @@
 
 .card_subtitle {
   color: var(--text-color);
+  font-size: 18px;
   line-height: 23.4px;
   letter-spacing: 0.5px;
   background-color: var(--accent-color);
 }
 
 .card_text {
+  font-size: 18px;
   margin: 10px 0 0px;
   line-height: 23.4px;
   letter-spacing: 0.5px;
