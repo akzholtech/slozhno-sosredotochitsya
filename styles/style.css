@@ -151,7 +151,6 @@
   color: var(--text-color);
   font-size: 18px;
   line-height: 23.4px;
-  letter-spacing: 0.5px;
   background-color: var(--accent-color);
 }
 
@@ -159,7 +158,6 @@
   font-size: 18px;
   margin: 10px 0 0px;
   line-height: 23.4px;
-  /* letter-spacing: 0.5px; */
   color: var(--accrent-text-color);
 }
 
@@ -360,7 +358,6 @@
 
   .attention_card .card_title {
     max-inline-size: 250px;
-    margin-block-end: 20px;
   }
   .header__paragraph {
     max-inline-size: calc(100vw / 2.);
