@@ -117,6 +117,10 @@
   box-shadow: 0 0 4px 2px var(--accent-color);
 }
 
+.link_word {
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
 .header__text {
   flex-grow: 2;
   display: flex;
@@ -125,6 +129,7 @@
 
 .header__paragraph {
   max-inline-size: calc(100vw / 3.15);
+  line-height: 23.4px;
   margin-inline-start: auto;
   margin-inline-end: 20px;
   color: var(--text-color);
@@ -290,10 +295,12 @@
   }
   .header__logo {
     line-height: 95.7px;
+    align-items: center;
   }
 
   .header__text {
     margin-inline: auto;
+    align-items: start;
   }
   .header__paragraph {
     max-inline-size: calc(100vw / 1.1);
@@ -327,9 +334,6 @@
   }
   .header_title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  }
-  .attention_card {
-    display: block;
   }
 
   .header__logo {
