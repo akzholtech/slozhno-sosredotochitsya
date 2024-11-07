@@ -341,11 +341,15 @@
   .header_title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-
   .header__logo {
     align-items: center;
+    block-size: calc(100vw / 3);
   }
-  .hard_to_focus, .attention_card, 
+  .header__text {
+    align-items: start;
+  }
+  .hard_to_focus,
+  .attention_card,
   .better_attention_card {
     margin-block-end: 80px;
   }
@@ -360,7 +364,7 @@
     max-inline-size: 250px;
   }
   .header__paragraph {
-    max-inline-size: calc(100vw / 2.);
+    max-inline-size: calc(100vw / 2);
   }
 }
 

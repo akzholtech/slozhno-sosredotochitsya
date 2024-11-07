@@ -76,6 +76,10 @@
     }
     .header__logo {
       align-items: center;
+      block-size: calc(100vw / 3);
+    }
+    .header__text {
+      align-items: start;
     }
     .header__paragraph {
       margin-inline-end: 20px;
