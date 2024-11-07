@@ -75,6 +75,9 @@
   }
 
   @media (768px <= width < 1024px) {
+    .header {
+      margin-block-end: 60px;
+    }
     .header__theme-menu-list {
       flex-direction: column;
       align-items: end;
