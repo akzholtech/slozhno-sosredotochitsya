@@ -48,4 +48,25 @@
   .header__rec {
     display: none;
   }
+
+  @media (768px <= width < 1024px) {
+    .header__logo {
+      align-items: center;
+    }
+    .header__paragraph {
+      margin-inline-end: 20px;
+      max-inline-size: calc(100vw / 2.3);
+    }
+    .attention_card {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
+  @media (1024px <= width < 1440px) {
+    .header__paragraph {
+      margin-inline-end: 20px;
+    }
+  }
 }

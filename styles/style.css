@@ -144,7 +144,7 @@
 
 .card_subtitle {
   color: var(--text-color);
-  line-height: 1;
+  line-height: 23.4px;
   letter-spacing: 0.5px;
   background-color: var(--accent-color);
 }
@@ -241,6 +241,7 @@
 
 .footer {
   block-size: 100vh;
+  margin-block-start: clamp(2.5rem, 2.0833rem + 1.8519vw, 3.75rem);
   position: relative;
   display: flex;
   align-items: center;
@@ -255,8 +256,8 @@
   left: 20px;
   width: 25px;
   height: 25px;
-  border-block-end: 1px solid var(--accent-color);
-  border-inline-start: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--border-color);
+  border-inline-start: 1px solid var(--border-color);
 }
 .footer::after {
   content: "";
@@ -266,8 +267,8 @@
   right: 20px;
   width: 25px;
   height: 25px;
-  border-block-start: 1px solid var(--accent-color);
-  border-inline-end: 1px solid var(--accent-color);
+  border-block-start: 1px solid var(--border-color);
+  border-inline-end: 1px solid var(--border-color);
 }
 
 .footer_logo {
@@ -329,6 +330,16 @@
   }
   .attention_card {
     display: block;
+  }
+
+  .header__logo {
+    align-items: center;
+  }
+
+  .attention_card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 
   .attention_card .card_title {
