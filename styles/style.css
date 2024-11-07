@@ -165,6 +165,7 @@
 
 .hard_to_focus {
   display: grid;
+  gap: 20px;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: repeat(2, 1fr);
   margin-block-end: clamp(3.125rem, 2.5rem + 2.7778vw, 5rem);
@@ -345,6 +346,9 @@
 
   .header__logo {
     align-items: center;
+  }
+  .hard_to_focus {
+    margin-block-end: 80px;
   }
 
   .attention_card {
