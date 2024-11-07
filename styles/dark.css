@@ -109,7 +109,14 @@
 
   @media (1024px <= width < 1440px) {
     .header__paragraph {
+      max-inline-size: calc(100vw / 2.1);
       margin-inline-end: 20px;
+      margin-block-end: 10px;
+    }
+    .hard_to_focus,
+    .attention_card,
+    .better_attention_card {
+      margin-block-end: 80px;
     }
   }
 }
